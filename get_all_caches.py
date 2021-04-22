@@ -1,7 +1,6 @@
 import datetime
 import json
 
-from colorama import *
 from requests import Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
