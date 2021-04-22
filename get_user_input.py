@@ -92,7 +92,7 @@ def create_portfolio():
                                 attrs=['bold', 'dark'])).strip(' ')
     fiat = input(colored('   Enter the fiat currency to output to. Id est, Euro is EUR. Only one per portfolio: \n',
                          'cyan', 'on_grey', attrs=['bold', 'dark'])).upper().strip(' ')
-    portfolio_start = input(colored("   Enter the date on which you'd like to have purchased all them cryptocoins (please"
+    portfolio_start = input(colored("   Enter the date on which you'd like to have purchased all them cryptocoins (please "
                                     f"use format dd-mm-yyy): \n", 'cyan', 'on_grey', attrs=['bold', 'dark'])).upper().strip(' ')
     high_or_low = input(colored("   Enter 'high' to calculate value based on the coin's daily high, else enter 'low': "
                                 "\n", 'cyan', 'on_grey', attrs=['bold', 'dark']))
